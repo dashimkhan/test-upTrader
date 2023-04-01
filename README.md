@@ -1,11 +1,19 @@
 # test-upTrader
-git clone 
-cd test-upTrader
-pip install virtualenv
-python -m venv venv
-venv\Scripts\activate (for windows os)
-pip install -r requirements.txt
-cd app
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+1) git clone 
+
+2) cd test-upTrader
+
+3) pip install virtualenv
+
+4) python -m venv venv 
+5) venv\Scripts\activate (for windows os)
+
+6) pip install -r requirements.txt
+
+7) cd app
+
+8) python manage.py makemigrations
+
+9) python manage.py migrate
+
+10) python manage.py runserver
